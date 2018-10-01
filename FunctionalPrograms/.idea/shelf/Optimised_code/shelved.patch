@@ -1,0 +1,444 @@
+Index: Distance.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Distance.py	(date 1537365273000)
++++ org/bridgelabz/programs/Distance.py	(date 1538029371000)
+@@ -1,6 +1,16 @@
++'''
++Program to calculate the Euclidean distance between two points
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
+ import math
+-x2=int(input("Enter the value of x"))
+-y2=int(input("Enter the value of y"))
+-print("The Euclidean distance between the two points is")
++try:
++    x2 = int(input("Enter the value of x"))
++    y2 = int(input("Enter the value of y"))
++    print("The Euclidean distance between the two points is")
+ 
+-print(math.sqrt(math.pow(x2,2)+math.pow(y2,2)))
+\ No newline at end of file
++    print(math.sqrt(math.pow(x2, 2)+math.pow(y2, 2)))  # Calculates the Euclidean distance
++except Exception:
++    print("Incorrect Input provided")
+\ No newline at end of file
+Index: LeapYear
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- LeapYear	(date 1537365273000)
++++ org/bridgelabz/programs/LeapYear	(date 1538031632000)
+@@ -1,11 +1,26 @@
+-year=input("Enter a year")
+-if(int(year)%4==0):
+-        if(int(year)%100==0):
+-            if(int(year)%400==0):
+-                print(str(year)+" is a leap year")
++'''
++Program to check if year is a leap year or not
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++try:
++    year = input("Enter the year")
++    if len(year) < 4:
++        print("The entered year is invalid")
++        exit(0)
++    if int(year) % 4 == 0:  # checks if year is completely divided by 4
++        if int(year) % 100 == 0:  # checks if year is a century year or not
++            if int(year) % 400 == 0:  # checks if year is both a century year and dived by 4
++                print("The entered year is a leap year")
+             else:
+-                print(str(year)+" is not a leap year")
++                print("The entered year is not a leap year")
+         else:
+-            print(str(year)+" is a leap year ")
+-else:
+-    print(str(year)+" is not a leap year")
++            print("The entered year is a leap year")
++    else:
++        print("The entered year is not a leap year")
++
++except Exception:
++    print("Invalid input detected")
+\ No newline at end of file
+Index: Stopwatch.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Stopwatch.py	(date 1537365273000)
++++ org/bridgelabz/programs/Stopwatch.py	(date 1538032473000)
+@@ -1,25 +1,37 @@
+-import time
++'''
++Program to simulate a stop watch
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++import time  # predefined time package
++
+ 
+-def startTime():
+-    return time.time()
++def start_time():
++    return time.time()  # returns the current time
+ 
+-def stopTime():
+-    return time.time()
+ 
++def stop_time():
++    return time.time()  # returns the new current time
+ 
+-start=int(input("Enter 1 to start the time"))
+-firstTime=0
+-secondTime=0
+-if start==1:
+-    firstTime=startTime()
+-    stop=int(input("Enter 2 to stop the time"))
+-    if stop==2:
+-        secondTime=stopTime()
+-        totalTime = float(secondTime - firstTime)
+-        print("The total elapsed time is")
+-        print(str(totalTime) + " seconds")
+-    else:
+-        print("Incorrect input !!! Please try again")
+-else:
+-    print("Incorrect input !!! Please try again")
++
++try:
++    start = int(input("Enter 1 to start the time"))
++    firstTime = 0
++    secondTime = 0
++    if start == 1:
++        firstTime = start_time()
++        stop = int(input("Enter 2 to stop the time"))
++        if stop == 2:
++            secondTime = stop_time()
++            totalTime = float(secondTime - firstTime)  # calculates the total time elapsed
++            print("The total elapsed time is")
++            print(str(totalTime) + " seconds")
++        else:
++            print("Incorrect input !!! Please try again")
++    else:
++        print("Incorrect input !!! Please try again")
+ 
++except Exception :
++    print("Invalid Input Detected")
+Index: org/bridgelabz/programs/UserName
+===================================================================
+--- org/bridgelabz/programs/UserName	(date 1537365273000)
++++ org/bridgelabz/programs/UserName	(date 1538032977000)
+@@ -1,5 +1,18 @@
++'''
++Program to greet the User
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++# Greets the user
++
+ print("Hello <<username>>,How are you?", "\n")
++
++# Takes input from the user
+ name = input("Enter username")
++
++# Checks if the length is at least equal to 3
+ if len(name) < 3:
+     print("Invalid username")
+ else:
+Index: Quadratic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Quadratic.py	(date 1537365273000)
++++ Quadratic.py	(date 1537365273000)
+@@ -1,13 +0,0 @@
+-import math
+-
+-a=int(input("Enter the value of a"))
+-b=int(input("Enter the value of b"))
+-c=int(input("Enter the value of c"))
+-
+-delta=pow(b,2)-4*a*c
+-
+-root1_Of_x=(-b+math.sqrt(delta))/(2*a)
+-root2_Of_x=(-b-math.sqrt(delta))/(2*a)
+-
+-print('The roots of the equation',str(a),'x*x+',str(b),'x',str(c),' are ')
+-print(root1_Of_x, "and ",root2_Of_x)
+\ No newline at end of file
+Index: WindChill.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WindChill.py	(date 1537365273000)
++++ WindChill.py	(date 1537365273000)
+@@ -1,10 +0,0 @@
+-import math
+-t=float(input("Enter the temperature in Fahrenheit"))
+-v=float(input("Enter the windspeed in miles per hour"))
+-
+-if(t>abs(50) and v>120 or v<3):
+-    print("Invalid input detected")
+-else:
+-    w=35.74+0.6215*t+(0.4275*t-35.75)*math.pow(v,0.16)
+-
+-print("The WindChill in the atmosphere is",str(w),"degrees Fahrenheit")
+Index: org/bridgelabz/programs/RegexPractice.py
+===================================================================
+--- org/bridgelabz/programs/RegexPractice.py	(date 1537445079000)
++++ org/bridgelabz/programs/RegexPractice.py	(date 1537445079000)
+@@ -0,0 +1,4 @@
++import re
++xx = "abcd2017@gmail.com is fun"
++r1 = re.findall(r"^\w+",xx)
++print(r1)
+\ No newline at end of file
+Index: Power.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Power.py	(date 1537365273000)
++++ org/bridgelabz/programs/Power.py	(date 1538031631000)
+@@ -1,8 +1,18 @@
+-n=input("Enter the power value N")
+-if(int(n)>30&int(n)<0):
+-    print("The value of N will overflow so kindly try again")
+-else:
+-    print("The values are:")
+-    for i in range(int(n)):
+-        print(pow(2,i))
+-
++'''
++Program to generate power of 2 upto n
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++try:
++    n = input("Enter the power value N")
++    if int(n) > 30 & int(n) < 0:
++        print("The value of N will overflow so kindly try again")
++    else:
++        print("The values are:")
++        for i in range(int(n)):
++            print(pow(2, i))  # generate until the power of n
++except Exception:
++    print("Invalid Input provided")
+Index: FlipCoin
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- FlipCoin	(date 1537365273000)
++++ org/bridgelabz/programs/FlipCoin	(date 1538031632000)
+@@ -1,14 +1,25 @@
++'''
++Program to flip a coin n times
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
+ from random import randint
+-times=input("Enter how many times you want to flip a coin")
+-head_count=0
+-tail_count=0
+-for i in range(int(times)):
+-    new_number=randint(0,1)
+-    if(new_number<0.5):
+-        tail_count+=1
+-    else:
+-        head_count+=1
++times = input("Enter how many times you want to flip a coin")
++try:
++    head_count = 0
++    tail_count = 0
++    for i in range(int(times)):
++        new_number = randint(0, 1)
++        if new_number < 0.5:  # as per the condition checks if the random number is below 0.5 or not
++            tail_count += 1
++        else:
++            head_count += 1
+ 
+-head_count=float(head_count*100)/float(times)
+-tail_count=float(tail_count*100)/float(times)
+-print("The percentage of heads and tails are ",str(head_count)," % and ",str(tail_count),"% respectively")
++    # calculates the percentage of heads and tails
++    head_count = float(head_count*100)/float(times)
++    tail_count = float(tail_count*100)/float(times)
++    print("The percentage of heads and tails are ", str(head_count), " % and ", str(tail_count), "% respectively")
++except Exception:
++    print("Incorrect input provided")
+Index: SumOfThree.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SumOfThree.py	(date 1537365273000)
++++ org/bridgelabz/programs/SumOfThree.py	(date 1538032940000)
+@@ -1,14 +1,24 @@
+-number_array=list()
+-number=int(input("How many elements do you want to enter"))
+-print("Enter the elements")
+-for i in range(number):
+-    n=int(input("Number:"))
+-    number_array.append(n)
++'''
++Program to check which sum of numbers entered is equal to 0 or not
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++number_array = list()
++try:
++    number = int(input("How many elements do you want to enter"))
++    print("Enter the elements")
++    for i in range(number):
++        n = int(input("Number:"))
++        number_array.append(n)
+ 
+-print("The triplets are")
+-for j in range(number):
+-    for k in range(j+1,number):
+-        for l in range(k+1,number):
+-            if(number_array[j]+number_array[k]+number_array[l]==0):
+-                print(number_array[j],number_array[k],number_array[l])
++    print("The triplets are")
++    for j in range(number): # checks the first element in the array
++        for k in range(j+1, number):  # checks the second element in the array
++            for l in range(k+1, number):  # checks the third element in the array
++                if number_array[j]+number_array[k]+number_array[l] == 0:  # checks to sum of all 3
++                    print(number_array[j], number_array[k], number_array[l])
++except Exception:
++    print("Invalid input detected")
+ 
+Index: Harmonic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Harmonic.py	(date 1537365273000)
++++ org/bridgelabz/programs/Harmonic.py	(date 1538031631000)
+@@ -1,15 +1,25 @@
+-n=int(input("Enter the value of N"))
+-calculate=0
+-if n==0:
+-    print("The value of N cannot be equal to zero")
+-else:
+-    print("The Harmonic Value is :")
+-    for i in range(1,n+1):
+-        calculate=calculate+(1.0/(i))
++'''
++Program to generate Harmonic Values
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++try:
++    n = int(input("Enter the value of N"))
++    calculate = 0
++    if n == 0:
++        print("The value of N cannot be equal to zero")
++    else:
++        print("The Harmonic Value is :")
++        for i in range(1, n+1):  # loops until the number is reached
++            calculate = calculate+(1.0/i)
+ 
+-    print(float(calculate))
++        print(float(calculate))
+ 
+-
++except Exception:
++    print("Invalid Input detected")
+ 
+ 
+ 
+Index: Gambler.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Gambler.py	(date 1537365273000)
++++ org/bridgelabz/programs/Gambler.py	(date 1538031631000)
+@@ -1,24 +1,36 @@
++'''
++Program to place a bet by a Gambler
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
+ from random import randint
+-stake=int(input("How much money do you want to bet"))
+-goal=int(input("How much is your goal"))
+-times=int(input("How many times do you want to play"))
+-wins=0
+-loss=0
+-for i in range(times):
+-    cash = stake
+-    while cash<goal and cash>0:
+-        money=randint(0,1)
+-        if(money<0.5):
+-            cash+=1
+-        else:
+-            cash-=1
++try:
++
++    stake = int(input("How much money do you want to bet"))
++    goal = int(input("How much is your goal"))
++    times = int(input("How many times do you want to play"))
++    wins = 0
++    loss = 0
++    for i in range(times):
++        cash = stake
++        while cash < goal and cash > 0:
++            money = randint(0, 1)  # generates a random number between 0 and 1
++            if money < 0.5:
++                cash += 1  # wins 1 $
++            else:
++                cash -= 1  # loses 1 $
+ 
+-    if(cash==goal):
+-        wins+=1
+-    else:
+-        loss+=1
+-print("The total wins is ",str(wins))
+-print("The percentage of wins is ")
+-print(wins*100/times)
+-print("The percentage of loss is ")
+-print(loss*100/times)
++        if cash == goal:  # checks if a person has reached the goal or not
++            wins += 1  # if the person has reached the goal he wins a game
++        else:
++            loss += 1  # if he hasn't then he loses a game
++    print("The total wins is ", str(wins))
++    print("The percentage of wins is ")
++    print(wins*100/times)
++    print("The percentage of loss is ")
++    print(loss*100/times)
++
++except Exception:
++    print("Invalid input detected")

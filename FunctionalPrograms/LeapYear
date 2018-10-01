@@ -1,0 +1,27 @@
+'''
+*********************************************************************************************
+ Purpose: Checks if the leap year is a leap year or not
+
+ *  @author  Abhishek Roy
+ *  @version 1.0
+ *  @since   20-09-18
+
+
+**********************************************************************************************
+'''
+
+try:
+    year = input("Enter a year")
+    if int(year) % 4 == 0:  # checks if the year is completely divided by  4 or not
+            if int(year) % 100 == 0:  # checks if the year is a century year or not
+                if int(year) % 400 == 0:  # checks is the year is a century leap year or not
+                    print(str(year)+" is a leap year")
+                else:
+                    print(str(year)+" is not a leap year")
+            else:
+                print(str(year)+" is a leap year ")
+    else:
+        print(str(year)+" is not a leap year")
+except Exception:
+    print("Invalid Year")
+

@@ -1,0 +1,375 @@
+Index: org/bridgelabz/programs/Palindrome.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Palindrome.py	(date 1538031631000)
++++ org/bridgelabz/programs/Palindrome.py	(date 1538031631000)
+@@ -0,0 +1,44 @@
++'''
++Program to check if number is Palindrome
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++def num_palind( num ):
++    temp = num
++    total = 0
++    rev = 0
++    while num != 0:  # loops until the number is equal to zero or not
++        rev = num % 10  # removes the last number and stores it into the reverse variable
++        total = total*10 + rev
++        num = int(num/10)
++    if total == temp:  # checks if the reversed number is equal to the original number or not
++        print(str(temp), "is a Palindrome Number")
++    else:
++        print(str(temp), "is not a Palindrome Number")
++
++def word_palind( word ):
++    return word[::-1]
++
++def isPalindrome(s):
++        # Calling reverse function
++        rev = word_palind(s)
++
++        # Checking if both string are equal or not
++        if s == rev:
++            return True
++        return False
++
++try:
++    num = int(input("Enter a number"))
++    num_palind(num)
++    word = input("Enter a word")
++    r = isPalindrome(word)
++    if r == 1:
++        print("The entered word is palindrome")
++    else:
++        print("The entered word is not a palindrome")
++except Exception:
++    print("Invalid input detected")
+Index: org/bridgelabz/programs/Coupon.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Coupon.py	(date 1538028310000)
++++ org/bridgelabz/programs/Coupon.py	(date 1538028310000)
+@@ -0,0 +1,32 @@
++'''
++Program to check generate distinct coupons
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++import random
++
++try:
++
++    number = int(input("How many coupons do you need"))
++    count = 0
++    i = 0
++    random_array = [""]
++    while True:
++            count += 1
++            ran = int(random.randint(1, number*2))  # generates random number double to the size of the input
++            for i in range(len(random_array)):
++                if random_array[i] == ran:  # checks if the number generated is same or not
++                    break
++                else:
++                    if i == len(random_array)-1:
++                        random_array.append(ran)  # adds the number to the random_array array
++
++            if len(random_array) == number+1:
++                break
++
++    print("The number of coupons required to ", str(count))
++except Exception:
++    print("Invalid Input detected")
+Index: org/bridgelabz/programs/InsertionSort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/InsertionSort.py	(date 1537871377000)
++++ org/bridgelabz/programs/InsertionSort.py	(date 1537871377000)
+@@ -0,0 +1,20 @@
++try:
++    lis = []
++    size = int(input("Enter the size of the list"))
++    print("Enter the elements")
++    for i in range(size):
++        number = input("Enter number")
++        lis.append(number)
++
++    for i in lis:
++        j = lis.index(i)
++        while j > 0:
++            if lis[j-1] > lis[j]:
++                lis[j-1], lis[j] = lis[j], lis[j-1]
++            else:
++
++                break
++            j = j-1
++    print(lis)
++except Exception:
++    print("Invalid input detected")
+\ No newline at end of file
+Index: org/bridgelabz/programs/BinarySearch.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/BinarySearch.py	(date 1537509556000)
++++ org/bridgelabz/programs/BinarySearch.py	(date 1537509556000)
+@@ -0,0 +1,30 @@
++def binary_sort(sorted_list, length, key):
++    start = 0
++    end = length - 1
++    while start <= end:
++        mid = int((start + end) / 2)
++        if key == sorted_list[mid]:
++            print("\nEntered number is present at position:", mid)
++            return -1
++        elif key < sorted_list[mid]:
++            end = mid - 1
++        elif key > sorted_list[mid]:
++            start = mid + 1
++    print("\nElement not found!")
++    return -1
++
++
++lst = []
++
++size = int(input("Enter size of list: \t"))
++
++for n in range(size):
++    numbers = int(input("Enter any number: \t"))
++    lst.append(numbers)
++
++lst.sort()
++print('\n\nThe list will be sorted, the sorted list is:', lst)
++
++x = int(input("\nEnter the number to search: "))
++
++binary_sort(lst, size, x)
+\ No newline at end of file
+Index: org/bridgelabz/programs/WindChill.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/WindChill.py	(date 1538033018000)
++++ org/bridgelabz/programs/WindChill.py	(date 1538033018000)
+@@ -0,0 +1,22 @@
++'''
++Program to calculate the WindChill in the atmosphere
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++import math
++try:
++    t = float(input("Enter the temperature in Fahrenheit"))
++
++    v = float(input("Enter the wind speed in miles per hour"))
++
++# checks the absolute temperature and wind speed
++    if t > abs(50) and v > 120 or v < 3:
++        print("Invalid input detected")
++    else:
++        w = 35.74+0.6215*t+(0.4275*t-35.75)*math.pow(v, 0.16)
++
++    print("The WindChill in the atmosphere is", str(w), "degrees Fahrenheit")
++except Exception:
++    print("Invalid Input detected")
+\ No newline at end of file
+Index: org/bridgelabz/programs/Quadratic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Quadratic.py	(date 1538031748000)
++++ org/bridgelabz/programs/Quadratic.py	(date 1538031748000)
+@@ -0,0 +1,23 @@
++'''
++Program to generate roots of a quadratic equation
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++import math
++
++try:
++    a = int(input("Enter the value of a"))
++    b = int(input("Enter the value of b"))
++    c = int(input("Enter the value of c"))
++
++    delta = pow(b, 2)-4*a*c
++
++    root1_Of_x = (-b+math.sqrt(delta))/(2*a)  # used to calculate the first  root
++    root2_Of_x = (-b-math.sqrt(delta))/(2*a)  # used to calculate the second root
++
++    print('The roots of the equation',str(a), 'x*x+', str(b), 'x', str(c), ' are ')
++    print(root1_Of_x, "and ", root2_Of_x)
++except Exception:
++    print("Invalid Input detected")
+Index: org/bridgelabz/programs/Practicefile.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Practicefile.py	(date 1537538243000)
++++ org/bridgelabz/programs/Practicefile.py	(date 1537538243000)
+@@ -0,0 +1,15 @@
++print("Hello \n")
++size = int(input("Enter a range"))
++low = 0
++high = size
++while True:
++    mid = int((low+high)/2)
++    print("Is your number ", mid)
++    choice = input("Enter yes or higher or lower:\t \n")
++    if choice == "yes":
++        print("Number found at ", str(mid))
++        break
++    elif choice == "lower":
++        high = mid-1
++    else:
++        low = mid+1
+Index: org/bridgelabz/programs/BubbleSort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/BubbleSort.py	(date 1537341909000)
++++ org/bridgelabz/programs/BubbleSort.py	(date 1537341909000)
+@@ -0,0 +1,19 @@
++def bubble_sort(numbers_array):
++    for i in range(len(numbers_array)-1,0,-1):
++        for j in range(i):
++            if numbers_array[j]>numbers_array[j+1]:
++                temp = numbers_array[j]
++                numbers_array[j] = numbers_array[j+1]
++                numbers_array[j+1] = temp
++    return numbers_array
++
++
++numbers_array = list()
++n = int(input("Enter the number of elements"))
++print("Enter the elements")
++for i in range(0, n):
++    n = input()
++    numbers_array.append(n)
++
++sorted_array = bubble_sort(numbers_array)
++print(sorted_array)
+Index: org/bridgelabz/programs/PrimeFactorization.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/PrimeFactorization.py	(date 1538031632000)
++++ org/bridgelabz/programs/PrimeFactorization.py	(date 1538031632000)
+@@ -0,0 +1,26 @@
++'''
++Program to generate PrimeFactorization
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++def primes(n):
++    primfac = []
++
++    i = 2
++    while i*i <= n:
++        while (n % i) == 0:  # checks if the number gives a zero remainder when divided by square of i
++            primfac.append(i)
++            n = int(n/i)
++        i += 1
++    if n > 1:
++       primfac.append(n)
++    print(primfac)
++
++try:
++    num = input("Enter the number")
++    primes(int(num))
++except Exception:
++    print("Invalid Input Detected")
+Index: org/bridgelabz/programs/Factorial.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Factorial.py	(date 1537341909000)
++++ org/bridgelabz/programs/Factorial.py	(date 1537341909000)
+@@ -0,0 +1,10 @@
++def generate_factorial(num):
++    if num == 1:
++        return 1
++    else:
++        return num*generate_factorial(num-1)
++
++
++num = int(input(" Enter the number "))
++fact = generate_factorial(num)
++print(str(fact))
+Index: org/bridgelabz/programs/Anagram.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- org/bridgelabz/programs/Anagram.py	(date 1538027525000)
++++ org/bridgelabz/programs/Anagram.py	(date 1538027525000)
+@@ -0,0 +1,43 @@
++'''
++Program to check if the entered strings are anagram or not
++
++Created by :- Abhishek Roy
++
++Author:- Abhishek Roy
++'''
++
++
++def is_anagram(word1, word2):  # function definition
++    if len(word1) != len(word2):  # check the length of both the alphabets
++        print("The words cannot be anagram")
++        exit(0)
++    else:
++        count1 = [0] * 256
++        count2 = [0] * 256
++        for i in word1:
++            count1[ord(i)] += 1  # check the ascii value of the alphabet and stores the count
++        for j in word2:
++            count2[ord(j)] += 1  # check the ascii value of the alphabet and stores the count
++    for i in range(256):
++        if count1 == count2:  # checks if the count of both the characters are same or not
++            print("The words are anagram to each other")
++            break
++    else:
++            print("The words are not anagram to each other")
++
++
++try:
++
++    word1 = input(" Enter the first word ")
++    word2 = input(" Enter the second word ")
++
++    word1.upper()  # changes all the characters to upper case
++    word2.upper()  # changes all the characters to upper case
++
++    is_anagram(word1, word2)
++except Exception:
++    print("Invalid input detected")
++# if res == 1:
++#     print("Both the words are anagram ")
++# else:
++#     print(" The words entered are not anagram to each other ")

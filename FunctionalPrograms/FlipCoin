@@ -1,0 +1,29 @@
+'''
+*********************************************************************************************
+ Purpose: Flips a coin n times where n is given by the user
+
+ *  @author  Abhishek Roy
+ *  @version 1.0
+ *  @since   17-09-18
+
+
+**********************************************************************************************
+'''
+
+from random import randint
+try:
+    times = input("Enter how many times you want to flip a coin")
+    head_count = 0
+    tail_count = 0
+    for i in range(int(times)):
+        new_number = randint(0, 1)  # generate random number between 0 and 1
+        if new_number < 0.5:
+            tail_count += 1
+        else:
+            head_count += 1
+    # used to calculate the percentage of heads and tails
+    head_count = float(head_count*100)/float(times)
+    tail_count = float(tail_count*100)/float(times)
+    print("The percentage of heads and tails are ", str(head_count), " % and ", str(tail_count), "% respectively")
+except Exception:
+    print("Invalid Input ")

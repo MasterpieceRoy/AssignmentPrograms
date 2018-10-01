@@ -1,0 +1,19 @@
+'''
+*********************************************************************************************
+ Purpose: Greets the User with his Username
+
+ *  @author  Abhishek Roy
+ *  @version 1.0
+ *  @since   22-09-18
+
+
+**********************************************************************************************
+'''
+try:
+    name = input("Enter username")
+    if len(name) < 3:  # checks if the length of the string is at least equal to 3 or not
+        print("Invalid username")
+    else:
+        print("Hello", name, ",How are you?")
+except Exception :
+    print("Invalid input")
