@@ -15,7 +15,9 @@ def generate_factorial(num):
     else:
         return num*generate_factorial(num-1)
 
-
-num = int(input(" Enter the number "))
-fact = generate_factorial(num)
-print(str(fact))
+try:
+    num = int(input(" Enter the number "))
+    fact = generate_factorial(num)
+    print(str(fact))
+except Exception:
+    print("Invalid Input")

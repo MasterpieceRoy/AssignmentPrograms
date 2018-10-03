@@ -45,20 +45,20 @@ def tic_tac_toe():  # function definition
             board[n] = "O"  # if cell is empty then inserts 'O' in the cell
 
     def choose_number():  # checks if the selected cell is present in the range or not
+        # while True:
         while True:
-            while True:
-                a = input()
-                try:
-                    a = int(a)
-                    a -= 1
-                    if a in range(0, 9):
-                        return a
-                    else:
-                        print("\n Invalid choice. Try again")
-                        continue
-                except Exception:
-                   print("\nInvalid Input. Try again")
-                   continue
+            a = input()
+            try:
+                a = int(a)
+                a -= 1
+                if a in range(0, 9):
+                    return a
+                else:
+                    print("\n Invalid choice. Try again")
+                    continue
+            except Exception:
+               print("\nInvalid Input. Try again")
+               continue
 
     def check_board():  # checks who wins the game
         count = 0

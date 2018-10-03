@@ -25,8 +25,10 @@ try:
         for i in range(n):
             ele = int(input())
             lis.append(ele)  # adds the elements to the list lis
+            lis.sort()
         key = int(input("Enter the number you want to search"))  # asks the element that you want to search
         t1 = time.clock()  # used to give the current time
+        print(lis)
         Utility.binary_search_number(key, lis)
         t2 = time.clock()
         print('Took {} Seconds'.format(t2-t1))  # calculates the time
@@ -38,6 +40,7 @@ try:
         for i in range(n):
             ele = input()
             lis.append(ele)
+            lis.sort()
         key = input("Enter the word you want to search")
         t3 = time.clock()
         Utility.binary_search_word(lis, key)

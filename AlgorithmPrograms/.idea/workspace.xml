@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Util.py" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/Util.py" line="29" />
     <bookmark url="file://$PROJECT_DIR$/NewtonMethod.py" line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bfcf6aa-8eff-4702-a458-6983de9ebd66" name="Default Changelist" comment="" />
+    <list default="true" id="1bfcf6aa-8eff-4702-a458-6983de9ebd66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/BankCashCounter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/BinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/Calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/Deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/PalindromeChecker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/Practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeadLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeadLine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchingAndSorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchingAndSorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VendingMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/VendingMachine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/UnorderedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/UnorderedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/CrossGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/CrossGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/Factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/Gambler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/Gambler.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +39,8 @@
     <session id="1265563970">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -25,55 +48,70 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="126" />
+          <entry key="py" value="133" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="126" />
+          <entry key="Python" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="24960" />
+          <entry key="py" value="30018" />
           <entry key="txt" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="76" />
-          <entry key="Python" value="24960" />
+          <entry key="Python" value="30018" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Util.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SearchingAndSorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
-              <folding>
-                <marker date="1538375833116" expanded="true" signature="645:650" ph="..." />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeadLine.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="594">
+              <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GuessNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VendingMachine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,6 +125,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -96,8 +137,6 @@
         <option value="$PROJECT_DIR$/text1.txt" />
         <option value="$PROJECT_DIR$/Practice.py" />
         <option value="$PROJECT_DIR$/AnagramPalin.py" />
-        <option value="$PROJECT_DIR$/SearchingAndSorting.py" />
-        <option value="$PROJECT_DIR$/VendingMachine.py" />
         <option value="$PROJECT_DIR$/PrimeNumber.py" />
         <option value="$PROJECT_DIR$/NewtonMethod.py" />
         <option value="$PROJECT_DIR$/InsertionSort.py" />
@@ -111,8 +150,10 @@
         <option value="$PROJECT_DIR$/GuessNumber.py" />
         <option value="$PROJECT_DIR$/MergeSortProg.py" />
         <option value="$PROJECT_DIR$/MonthlyPayment.py" />
-        <option value="$PROJECT_DIR$/Util.py" />
         <option value="$PROJECT_DIR$/DeadLine.py" />
+        <option value="$PROJECT_DIR$/VendingMachine.py" />
+        <option value="$PROJECT_DIR$/SearchingAndSorting.py" />
+        <option value="$PROJECT_DIR$/Util.py" />
       </list>
     </option>
   </component>
@@ -122,11 +163,13 @@
     <option name="width" value="1299" />
     <option name="height" value="764" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,11 +181,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FunctionalPrograms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -162,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.VendingMachine">
+  <component name="RunManager" selected="Python.SearchingAndSorting">
     <configuration name="Binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithmPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BinaryRepresentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DeadLine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithmPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryRepresentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeadLine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MonthlyPayment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GuessNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithmPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +259,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonthlyPayment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuessNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +268,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PrimeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SearchingAndSorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithmPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +280,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrimeNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SearchingAndSorting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,19 +311,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Binary" />
-      <item itemvalue="Python.BinaryRepresentation" />
-      <item itemvalue="Python.MonthlyPayment" />
-      <item itemvalue="Python.PrimeNumber" />
       <item itemvalue="Python.VendingMachine" />
+      <item itemvalue="Python.GuessNumber" />
+      <item itemvalue="Python.DeadLine" />
+      <item itemvalue="Python.SearchingAndSorting" />
+      <item itemvalue="Python.Binary" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.VendingMachine" />
-        <item itemvalue="Python.PrimeNumber" />
-        <item itemvalue="Python.MonthlyPayment" />
-        <item itemvalue="Python.BinaryRepresentation" />
+        <item itemvalue="Python.SearchingAndSorting" />
         <item itemvalue="Python.Binary" />
+        <item itemvalue="Python.VendingMachine" />
+        <item itemvalue="Python.GuessNumber" />
+        <item itemvalue="Python.DeadLine" />
       </list>
     </recent_temporary>
   </component>
@@ -299,14 +341,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22360249" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22360249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Graph" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992236" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992236" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,13 +380,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SquareRoot.py" />
-    <entry file="file://$PROJECT_DIR$/AnagramPalin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AnagramPalin.py" />
     <entry file="file://$PROJECT_DIR$/text1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -354,23 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryRepresentation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <marker date="1538375408718" expanded="true" signature="461:462" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,13 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GuessNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -440,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchingAndSorting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#359#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TemperatureCoversion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -457,27 +461,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VendingMachine.py">
+    <entry file="file://$PROJECT_DIR$/GuessNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="113" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
+        <state relative-caret-position="108">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util.py">
+    <entry file="file://$PROJECT_DIR$/VendingMachine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
-          <folding>
-            <marker date="1538375833116" expanded="true" signature="645:650" ph="..." />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryRepresentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeadLine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchingAndSorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>

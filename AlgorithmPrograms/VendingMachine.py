@@ -15,6 +15,7 @@ def dispense_money(money, notes):
     if money == 0:  # checks if the money is equal to zero or not
         print("The number of minimum notes required are  ", str(notes))  # checks the number of minimum notes required
         exit()
+
     if money >= 1000:  # checks if the entered amount is more than or equal to 1000
         notes = notes + int(money / 1000)  # calculates the number of notes generated
         # print(str(notes))

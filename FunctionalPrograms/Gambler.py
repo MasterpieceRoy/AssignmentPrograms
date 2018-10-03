@@ -27,11 +27,13 @@ for i in range(times):
             cash -= 1  # The Gambler loses $1
 
     if cash == goal:  # if gambler reaches his goal he wins else loses
-        wins += 1
+        exit(0)
     else:
         loss += 1
 print("The total wins is ", str(wins))
 print("The percentage of wins is ")
 print(wins*100/times)
+print(cash)
 print("The percentage of loss is ")
 print(loss*100/times)
+print("The total loss", str(loss))
