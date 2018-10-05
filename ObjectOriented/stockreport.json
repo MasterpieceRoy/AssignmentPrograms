@@ -1,16 +1,16 @@
 {
 	"stock": [{
-		"name": "Citi Bank",
+		"name": "Epic Games",
 		"no_of_share": "10",
-		"share_prize": "1475"
+		"share_price": "1475"
 	}, {
 		"name": "Nvidia",
 		"no_of_share": "23",
-		"share_prize": "1790"
+		"share_price": "1790"
 	}, {
-		"name": "Intel",
+		"name": "Ubisoft",
 		"no_of_share": "17",
-		"share_prize": "1670"
+		"share_price": "1670"
 	}]
 
 }
