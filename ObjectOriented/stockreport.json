@@ -1,0 +1,16 @@
+{
+	"stock": [{
+		"name": "Citi Bank",
+		"no_of_share": "10",
+		"share_prize": "1475"
+	}, {
+		"name": "Nvidia",
+		"no_of_share": "23",
+		"share_prize": "1790"
+	}, {
+		"name": "Intel",
+		"no_of_share": "17",
+		"share_prize": "1670"
+	}]
+
+}

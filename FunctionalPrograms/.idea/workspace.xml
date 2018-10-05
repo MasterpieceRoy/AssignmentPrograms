@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf2d9c23-4488-4577-9119-36c49bef4bdc" name="Default Changelist" comment="Optimised code">
-      <change afterPath="$PROJECT_DIR$/../AlgorithmPrograms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/BankCashCounter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/BinarySearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/Calendar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/Deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/PalindromeChecker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/Practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructure/Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjectOriented/JsonProgram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ObjectOriented/StockReport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmPrograms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmPrograms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmPrograms/DeadLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmPrograms/DeadLine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmPrograms/Util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmPrograms/Util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgorithmPrograms/VendingMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmPrograms/VendingMachine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataStructure/UnorderedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/UnorderedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrossGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrossGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gambler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gambler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/Calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/Calendar.py" afterDir="false" />
     </list>
     <list id="a232d5bf-9a1c-4ccb-b8c6-9081d040bf15" name="Optimised code" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
@@ -36,8 +20,8 @@
     <session id="1014683926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
@@ -51,14 +35,14 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="FlipCoin" value="11" />
           <entry key="LeapYear" value="12" />
-          <entry key="UserName" value="14" />
+          <entry key="UserName" value="15" />
           <entry key="md" value="1" />
           <entry key="py" value="235" />
         </counts>
@@ -66,7 +50,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="271" />
+          <entry key="Python" value="272" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -89,7 +73,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UserName">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,11 +198,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AlgorithmPrograms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -238,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CrossGame">
+  <component name="RunManager" selected="Python.UserName">
     <configuration name="Coupon" type="PythonConfigurationType" factoryName="Python">
       <module name="FunctionalPrograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -461,11 +455,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2468944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Graph" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992236" weight="0.32919255" />
@@ -478,6 +472,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007764" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32919255" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Dependency Graph" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserName">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WindChill.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -738,6 +726,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserName">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>

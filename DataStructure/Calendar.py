@@ -1,40 +1,58 @@
-def printmonth(year, month):
-    printmonthtitle(year, month)
-    printmonthtitle(year, month)
+def isleapyear(year):
+    if (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0)):
+        return True
+
+    return False
 
 
-def printmonthtitle(year, month):
-    print(" ", getmonthname(month), " ", year)
-    print("----------------------------------")
-    print("Sun Mon Tue Wed Thu Fri Sat")
+# Function to find the day
+def day(month, day, year):
+    y = year - (14 - month) / 12
+    # print (y)
+    x = y + y / 4 - y / 100 + y / 400
+    # print (x)
+    m = month + 12 * ((14 - month) / 12) - 2
+    # print (m)
+    d = (day + x + (31 * m) / 12) % 7
+    # print (d)
+    return d
+
+# Function to print the Calendar
+# @param month
+# @param year
 
 
-def getmonthname(month):
-    switcher = {
-        1: "January",
-        2: "February",
-        3: "March",
-        4: "April",
-        5: "May",
-        6: "June",
-        7: "July",
-        8: "August",
-        9: "September",
-        10: "October",
-        11: "November",
-        12: "December"
-    }
-    return month
+def calendar(month, year):
+    days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+              "November", "December"]
+
+    if month == 2 and isleapyear(year):
+        days[month] = 29
+
+    print("        ", months[month - 1] + " ", year, "\n")
+    print(" Su Mo Tu We Th Fr Sa")
+    print("----------------------")
+
+    d = day(month, 1, year)
+
+    i = 0
+
+    while i < d:
+        print("  ")
+        i += 1
+    i = 1
+    while i <= days[month]:
+        print("%2d" % i, end='')
+        if ((i+d) % 7 == 0) or (i == days[month]):
+            print("\n")
+            print("----------------------")
+        i += 1
 
 
-year = int(input("Enter the year"))
+class Calendar:
 
-month = int(input("Enter the month"))
+    month = int(input("enter the month\n"))
+    year = int(input("enter the year\n"))
 
-if month < 1 or month > 12 or year < 1980:
-    print("Invalid input")
-    exit(0)
-else:
-    printmonth(year, month)
-
-
+    calendar(month, year)
