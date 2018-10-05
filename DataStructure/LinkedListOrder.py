@@ -29,11 +29,11 @@ class LinkedListOrder:
     def search(self, digit):
         flag = 0
         temp = self.head
-        while (temp != None):
-            if (temp.data == digit):
+        while temp != None:
+            if temp.data == digit:
                 flag = 1
             temp = temp.next
-        if (flag == 0):
+        if flag == 0:
             return False
         else:
             return True
@@ -42,7 +42,7 @@ class LinkedListOrder:
         if self.head.data == word:
             self.head = self.head.next
 
-            print("Delete Number")
+            print("Deleted the Number")
 
 
         else:
@@ -57,10 +57,11 @@ class LinkedListOrder:
 
     def updateList(self):
         f = open("numbers.txt", "w")
-        if self.head == None:
+        if self.head is None:
             print("The list is empty")
         else:
             temp = self.head
-            while temp != None:
+            while temp is not None:
                 f.write(str(temp.data))
+                f.write(" ")
                 temp = temp.next

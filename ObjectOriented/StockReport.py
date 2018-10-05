@@ -24,3 +24,4 @@ class StockReport:
 
     def get_shareTotal(self):
         return self.__shareTotal
+
