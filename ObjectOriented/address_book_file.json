@@ -1,0 +1,15 @@
+{
+
+  "Naruto":{
+    "phone":"9784565642",
+    "name":"Naruto",
+    "email":"naruto.hokage@konoha.com"
+  },
+  "Sasuke":{
+    "phone":"878945256",
+    "name":"Sasuke",
+    "email":"sasuke.uchiha@sharingan.com"
+  }
+
+}
+
