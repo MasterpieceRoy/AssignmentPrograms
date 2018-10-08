@@ -29,7 +29,7 @@ class PrimeAnagramUsingQueue:
     while i < len(arr):
         j = i + 1
         while j < len(arr):
-            if isAnagram(arr[i] , arr[j]):
+            if isAnagram(arr[i], arr[j]):
                 obj.enque(arr[i])
                 obj.enque(arr[j])
             j += 1

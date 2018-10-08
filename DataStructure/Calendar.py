@@ -53,12 +53,12 @@ def calendar(month, year): #9 2018
         if int(i+d) % 7 == 0 or (i == days[month]):
 
             print("\n")
-            print("----------------------")
+            # print("----------------------")
         i += 1
 
 class Calendar:
 
-    month =input("enter the month\n")
-    year =input("enter the year\n")
+    month = input("enter the month\n")
+    year = input("enter the year\n")
 
     calendar(int(month), int(year))
