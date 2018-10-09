@@ -2,6 +2,7 @@ from LinkedListOrder import *
 
 
 class OrderedList:
+
     file = open("numbers.txt", "r+")
 
     number = file.read().split(" ")
@@ -30,3 +31,4 @@ class OrderedList:
         print("Number will be updated in the list")
         list1.insertdata(digit)
     list1.updateList()
+

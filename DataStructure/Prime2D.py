@@ -10,7 +10,7 @@ class PrimeTwoDList:
                      '900-1000']
         new_array = []
         rang = int(rang/100)
-        for twoDArray in range( 0, rang):
+        for twoDArray in range(0, rang):
             temp = []
             for num in range( number, number+100):
                 if num > 2:

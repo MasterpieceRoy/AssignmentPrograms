@@ -6,10 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bfcf6aa-8eff-4702-a458-6983de9ebd66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ObjectOriented/JsonProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/BalancedParenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/BankCashCounter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/BankCashCounter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/BinarySearchTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataStructure/Calendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/Calendar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/Deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/HashingFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/HashingFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/LinkedListOfQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/LinkedListOfQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/LinkedListOfStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/LinkedListOfStack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/LinkedListOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/LinkedListOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructure/Numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructure/Numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FunctionalPrograms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FunctionalPrograms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ObjectOriented/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ObjectOriented/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +30,18 @@
     <session id="1265563970">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SearchingAndSorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="-574">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -152,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +173,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1311" height="744" extended-state="6" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22360249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -466,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SearchingAndSorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="-574">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>

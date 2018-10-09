@@ -1,17 +1,34 @@
+'''
+*********************************************************************************************
+ Purpose: Function for Linked List Operation using Queue
+
+ *  @author  Abhishek Roy
+ *  @version 1.0
+ *  @since   06-10-18
+
+
+**********************************************************************************************
+'''
+
+# used to create a node
+
+
 class Node:
 
-    def __init__(self, data):
+    def __init__(self, data):  # used for initialising the node
         self.data = data
         self.next = None
+
+# used to create a linked list using queue
 
 
 class LinkedListOfQueue:
 
-    def __init__(self):
+    def __init__(self):  # used to initialise
         self.first = None
 
-    def isEmpty(self):
-        return self.front == self.first
+    def isEmpty(self):  # used to check if it is empty or not
+        return self.front == self.first  # assign the first place to the front
 
     def enque(self, data):
         newNode = Node(data)
