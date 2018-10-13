@@ -23,7 +23,7 @@ try:
 
 
     def datevalidate(date):
-        if re.search("^[\d]{2}/[\d]{2}/[\d]{4}", date):
+        if re.search("^[\d]{2}/[\d]{2}/[\d]{4}$", date):
             return True
         else:
             return False

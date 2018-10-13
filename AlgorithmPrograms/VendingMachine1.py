@@ -14,7 +14,7 @@ def vendingMachine(notes, amount, i):
 
 			total = total + calculatedNotes
 
-			print(notes[i], " notes------>", calculatedNotes)
+			print(notes[i], " notes=", calculatedNotes)
 		i += 1
 		vendingMachine(notes, amount, i)
 

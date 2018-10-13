@@ -100,7 +100,7 @@ try:
         print('Took {} Seconds'.format(t12-t11))
 
 
-except Exception:
-    print("Invalid choice")
+except KeyboardInterrupt:
+    print("Stopped using keyboard")
 
 

@@ -38,5 +38,7 @@ def stock_report(name_keys):
 class StockOperation:
 
     stock_data = json.load(open("stockreport.json", "r"))
+    print(type(stock_data))
     name_keys = list(stock_data["stock"])
+    print(name_keys)
     stock_report(name_keys)

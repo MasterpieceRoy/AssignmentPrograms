@@ -14,8 +14,6 @@ class Doctor:
     def set_availability(self, avail):
         self._availability = avail
 
-
-
     def get_first_name(self):
         return self._first_name
 
@@ -25,8 +23,8 @@ class Doctor:
     def get_id(self):
         return self._id
 
-    def get_specialization(self, specialization):
+    def get_specialization(self):
         return self._specialization
 
-    def get_availability(self, avail):
+    def get_availability(self):
         return self._availability
